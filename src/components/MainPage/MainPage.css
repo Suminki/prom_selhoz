@@ -1,0 +1,102 @@
+.promo{
+    display: flex;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.promo .description {
+    width: 50%;
+}
+
+.promo .description img {
+    height: 250px;
+}
+
+.promo .description p {
+    font-weight: 300;
+    font-size: 48px;
+}
+
+.image {
+    width: 50%;
+    height: 100%;
+    border-radius: 0 0 250px 0;
+    overflow: hidden;
+}
+
+.image .background {
+    width: 500px;
+    height: 100%;
+    border-radius: 250px 0 250px 250px;
+    background-image: radial-gradient(circle 600px at top right, #00E08A, #1E1E1E 60%);
+    background-repeat: no-repeat;
+    margin-left: auto;
+}
+
+.image .background img {
+    animation: tractor 1s ease;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+}
+
+.advantages h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+.advantages ul {
+    list-style: none;
+    padding: 0;
+}
+
+.advantages ul li {
+    display: flex;
+    height: 200px;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.advantages ul li:hover {
+    transform: translateX(-20px)
+}
+
+.advantages ul li p{
+    margin: 0;
+    align-self: center;
+}
+
+.advantages ul li .point {
+    width: 200px;
+    height: 100%;
+    background-image: radial-gradient(circle farthest-corner at top right, #00E08A 30%, #06925C);
+    transform: translateX(100px);
+    z-index: -1;
+}
+
+ul li:nth-child(1) .point {
+    border-radius: 0 200px 0 0;
+}
+
+ul li:nth-child(2) .point {
+    border-radius: 200px 0 200px 200px;
+}
+
+ul li:nth-child(3) .point {
+    border-radius: 200px 0 0 200px;
+}
+
+@keyframes tractor{
+    from {
+        transform: translateX(50%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}

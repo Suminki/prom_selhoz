@@ -1,0 +1,100 @@
+.slider-container .slider {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.slider-container .slider .image-containter{
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    height: 500px;
+    background-color: #E9E9E9;
+    overflow: hidden;
+}
+
+.slider-container .slider .image-containter img{
+    height: 100%;
+}
+
+.slider-container .slider button {
+    all: unset;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-top: 8px solid #D9D9D9;  /* Цвет и толщина можно менять */
+    border-left: 8px solid #D9D9D9; /* Цвет и толщина можно менять */
+    transform: rotate(-45deg);
+    background: transparent;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.slider-container .slider button:hover {
+    border-color: #C4C4C4;
+}
+
+.slider-container .slider button:active {
+    border-color: #9D9D9D;
+}
+
+.slider-container .slider .button-back {
+    margin-right: auto;
+}
+
+.slider-container .slider .button-next {
+    margin-left: auto;
+    transform: rotate(135deg)
+}
+
+.slider-container .description {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.slider-container .description .stats h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.slider-container .description .stats p {
+    margin-top: 10px;
+}
+
+.slider-container .description p {
+    margin: 0;
+}
+
+.slider-container .description .buy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slider-container .description .buy p{
+    text-align: end;
+}
+
+.slider-container .description .buy button {
+    all: unset;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+    background-color: #12CD86;
+    color: #F5F3F0;
+    text-align: center;
+    transition: 0.1s ease;
+}
+
+.slider-container .description .buy button:hover {
+    background-color: #14BB7C;
+}
+
+.slider-container .description .buy button:active {
+    transform: scale(0.98);
+}

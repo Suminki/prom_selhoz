@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900');
+
+/* Фон дорожки (трек) */
+body::selection {
+  background-color: #06925C; /* цвет фона выделенного текста */
+  color: white;              /* цвет текста при выделении */
+}
+
+
+body {
+  margin: 0;
+  background-color: #F5F3F0;
+  font-family: 'Inter', sans-serif;
+  color: #1E1E1E;
+}
+
+header {
+    height: 150px;
+    background-color: #E9E9E9;
+}
+
+main {
+  min-height: calc(100vh - 150px - 300px);
+  padding: 100px 0;
+  box-sizing: border-box;
+  animation: appearance 0.7s ease-out;
+}
+
+footer {
+    height: 300px;
+    background-color: #E9E9E9;
+}
+
+main .page-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+@keyframes appearance {
+  from {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}

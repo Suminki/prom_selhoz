@@ -1,0 +1,122 @@
+.reviews {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews .stats {
+    width: 530px;
+}
+
+.reviews .stats h2{
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+
+.reviews .stats p{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.reviews .stats .circle {
+    width: 530px;
+    height: 530px;
+    border-radius: 50%;
+    background: #E9E9E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.reviews .stats .circle .circle-green {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: circle-animation 1s;
+}
+
+.reviews .stats .circle .hole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: #F5F3F0;
+}
+
+.reviews .stats .circle .hole p{
+    font-size: 100px;
+    font-weight: 500;
+    color: #06925C;
+    margin: 0;
+}
+
+.reviews ul {
+    list-style: none;
+}
+
+.reviews .reviews-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reviews .reviews-list > li{
+    display: flex;
+    width: 700px;
+    height: 200px;
+    background-color: #E9E9E9;
+    overflow: hidden;
+}
+
+.reviews .reviews-list > li:nth-child(1){
+    border-radius: 0 100px 0 100px;
+}
+
+.reviews .reviews-list > li:nth-child(2){
+    border-radius: 100px 0 0 100px;
+}
+
+.reviews .reviews-list > li:nth-child(3){
+    border-radius: 100px 0 100px 0;
+}
+
+.reviews .reviews-list > li > img{
+    background-image: 
+        radial-gradient(
+            circle farthest-side at bottom,
+            #12CD86 0%,
+            #1E1E1E 100%
+        );
+}
+
+.reviews .reviews-list > li .rate{
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.reviews .reviews-list > li .review-content {
+    padding: 20px;
+}
+
+.reviews .reviews-list > li .review-content h3{
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.reviews .reviews-list > li .review-content p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
