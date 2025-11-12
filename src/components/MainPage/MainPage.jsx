@@ -6,12 +6,12 @@ export default function MainPage() {
             <div className="page-container">
                 <section className="promo">
                     <div className="description">
-                        <img src="/logo.svg"></img>
+                        <img src="./logo.svg"></img>
                         <p>Обурудуем ваше хозяйство <b>надёжной</b> техникой</p>
                     </div>
                     <div className="image">
                         <div className="background">
-                            <img src="/tractor.png"></img>
+                            <img src="./tractor.png"></img>
                         </div>
                     </div>
                 </section>

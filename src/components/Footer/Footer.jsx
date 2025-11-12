@@ -1,15 +1,15 @@
 import './Footer.css'
-import logo from '/logo.svg'
-import telegramLogo from '/telegramLogo.svg'
-import vkLogo from '/vkLogo.svg'
-import instagramLogo from '/instagramLogo.svg'
+import logo from './logo.svg'
+import telegramLogo from './telegramLogo.svg'
+import vkLogo from './vkLogo.svg'
+import instagramLogo from './instagramLogo.svg'
 
 export default function Bottom() {
     return (
         <footer>
             <div className="footer-container">
                 <div className="info">
-                    <img src="./logo.svg"></img>
+                    <img src={logo}></img>
                     <div>
                         <p className="org">ООО "ПРОМСЕЛЬХОЗ" 2015-2025</p>
                         <p className="rights">Все права защищены</p>
