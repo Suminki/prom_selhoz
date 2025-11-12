@@ -9,7 +9,7 @@ export default function Bottom() {
         <footer>
             <div className="footer-container">
                 <div className="info">
-                    <img src="/logo.svg"></img>
+                    <img src="./logo.svg"></img>
                     <div>
                         <p className="org">ООО "ПРОМСЕЛЬХОЗ" 2015-2025</p>
                         <p className="rights">Все права защищены</p>
